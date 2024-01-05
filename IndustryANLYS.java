@@ -12,6 +12,7 @@ import java.io.FileNotFoundException;
  * Project, this project focuses on analyzing the stock prices of world's top semiconductor 
  * companies from their respective datasets found on NASDAQ. It is entirely constructed in Java by 
  * implementing the principles of Object-Oriented Design and Object-Oriented programming.
+ * Credits to Princeton University for their StdIn and StdOut files
  */
 
 /*
