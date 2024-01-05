@@ -379,7 +379,7 @@ public static void main(String[] args) {
     ArrayList<StockData> stockDataList = new ArrayList<>();
     StdOut.println("--------------------------------------------------------------------------------");
     StdOut.println();
-    StdOut.println("Welcome to my superconductor industry analysis project!");
+    StdOut.println("Welcome to my Semiconductor Industry Analysis project!");
     StdOut.println();
     StdOut.println("Here are the tickers of major semiconductor industry companies: AMAT, AMD, ASML, ASX, AVGO, INTC, MU, NVDA, QCOM, TSM");
     StdOut.print("Write down the ticker from the list above you want to analyze: ");
