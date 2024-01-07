@@ -12,7 +12,6 @@ import java.io.FileNotFoundException;
  * Project, this project focuses on analyzing the stock prices of world's top semiconductor 
  * companies from their respective datasets found on NASDAQ. It is entirely constructed in Java by 
  * implementing the principles of Object-Oriented Design and Object-Oriented programming.
- * Credits to Princeton University for their StdIn and StdOut files
  */
 
 /*
@@ -104,6 +103,8 @@ public class IndustryANLYS{
     //function 1: retrieving data from specific date
     //returning date, volume, opening price, closing-in price, highest price, lowest price, adjusted closing-in price. 
     //using an enhanced for loop
+
+    //opening, closing, highest, lowest.
     public static void SpecificDateInfo(ArrayList <StockData> stockdatalist, String date){
         for (StockData stockinfo : stockdatalist){
             if (stockinfo.getDate().equals(date)){
@@ -111,9 +112,9 @@ public class IndustryANLYS{
                 StdOut.println("Date: " + stockinfo.getDate());
                 StdOut.println("Volume: " + stockinfo.getVolume());
                 StdOut.println("Opening Price: " + stockinfo.getOpeningPrice());
-                StdOut.println("Closing-in Price: " + stockinfo.getHighestPrice());
-                StdOut.println("Highest Price: " + stockinfo.getLowestPrice());
-                StdOut.println("Lowest Price: " + stockinfo.getClosingInPrice());
+                StdOut.println("Closing-in Price: " + stockinfo.getClosingInPrice());
+                StdOut.println("Highest Price: " + stockinfo.getHighestPrice());
+                StdOut.println("Lowest Price: " + stockinfo.getLowestPrice());
                 StdOut.println("Adjusted Closing-in Price: " + stockinfo.getClosingInPrice());
             }
         }
@@ -379,7 +380,7 @@ public static void main(String[] args) {
     ArrayList<StockData> stockDataList = new ArrayList<>();
     StdOut.println("--------------------------------------------------------------------------------");
     StdOut.println();
-    StdOut.println("Welcome to my Semiconductor Industry Analysis project!");
+    StdOut.println("Welcome to my superconductor industry analysis project!");
     StdOut.println();
     StdOut.println("Here are the tickers of major semiconductor industry companies: AMAT, AMD, ASML, ASX, AVGO, INTC, MU, NVDA, QCOM, TSM");
     StdOut.print("Write down the ticker from the list above you want to analyze: ");
